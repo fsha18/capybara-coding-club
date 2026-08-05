@@ -1,0 +1,332 @@
+h1 {
+  text-decoration: underline;
+  text-decoration-color: rgba(49, 26, 15, 0.72);
+  text-align: center;
+  font-size: 65px;
+}
+.title-new {
+  font-size: 45px;
+  text-decoration-color: rgba(49, 26, 15, 0.72);
+  text-align: center;
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(38, 23, 17, 0.72);
+}
+p {
+  text-align: center;
+  font-size: 30px;
+}
+.comic-neue {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+}
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-weight: 400;
+  color: rgba(38, 23, 17, 0.72);
+}
+body {
+  background-color: rgb(255, 226, 193);
+}
+
+.nav-logo {
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.nav-logo img {
+  width: 80px;
+  height: auto;
+  display: block;
+  margin-left: 15px;
+  margin-bottom: 0;
+}
+.my-btn {
+  flex-shrink: 0;
+  padding: 1rem 2.5rem;
+  font-size: 1.4rem;
+  font-family: "Pixelify Sans", sans-serif;
+  background: rgba(225, 146, 100, 0.9);
+  color: rgba(38, 23, 17, 0.9);
+  border: none;
+  border-radius: 12px 0 0 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.my-btn:hover {
+  background: rgba(236, 145, 105, 0.9);
+}
+.style-button {
+  padding: 12px 14px;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 12px;
+  background-color: rgba(225, 146, 100, 0.9);
+  font-family: "Pixelify Sans", sans-serif;
+  color: rgba(38, 23, 17, 0.72);
+}
+
+.style-button:hover {
+  background-color: rgba(236, 145, 105, 0.771);
+}
+.start-section {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 1rem;
+}
+
+.walking-capy {
+  flex-grow: 1;
+  width: auto;
+  max-height: 80px;
+  object-fit: cover;
+  border-radius: 0 12px 12px 0;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100%;
+  box-sizing: border-box;
+  gap: 24px;
+  margin: 40px 0;
+  padding: 0 24px;
+}
+.windmill {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+.windmill img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+.box {
+  flex: 1;
+  min-width: 0;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: rgb(247, 202, 153);
+  border: 3px solid #ac8867;
+  box-sizing: border-box;
+}
+.level-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.level-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.code-section {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#message {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 15px;
+  border: 3px solid #ac8867;
+  background-color: rgb(247, 202, 153);
+  margin-top: 10px;
+}
+
+.box1 {
+  width: 40%;
+  min-height: 300px;
+  padding: 30px;
+  border-radius: 25px;
+  background-color: rgb(247, 202, 153);
+  border: 3px solid #ac8867;
+  text-align: center;
+  box-sizing: border-box;
+}
+#room {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border: 5px solid #ac8867;
+  border-radius: 30px;
+  margin: 40px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#room {
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border: 5px solid #ac8867;
+  border-radius: 30px;
+  margin: 40px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#room2 {
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+  border: 5px solid #ac8867;
+  border-radius: 30px;
+  margin: 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+#room3 {
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+  border: 5px solid #ac8867;
+  border-radius: 30px;
+  margin: 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#room3.capybara {
+  width: 120px;
+  margin-top: 20px;
+}
+#room4 {
+  width: 400px;
+  height: 400px;
+  background-color: pink;
+  border: 5px solid #ac8867;
+  border-radius: 30px;
+  margin: 40px 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+#room4.capybara {
+  width: 120px;
+  margin-top: 20px;
+}
+
+#room4 .bookshelf {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 25px;
+  height: auto;
+  object-fit: contain;
+}
+.room-and-hint {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  margin: 40px auto;
+}
+
+.hint-box {
+  width: 250px;
+  min-height: 200px;
+  padding: 30px;
+  border-radius: 25px;
+  background-color: rgb(247, 202, 153);
+  border: 3px solid #ac8867;
+  text-align: center;
+  box-sizing: border-box;
+}
+.furniture {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.furniture-item {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+#sign {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 3px solid #ac8867;
+  border-radius: 10px;
+  background-color: rgb(247, 202, 153);
+  text-align: center;
+}
+
+#room2 .capybara {
+  width: 150px;
+  margin-top: 40px;
+}
+.capybara {
+  width: 150px;
+}
+.sticky-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
+  background: #f8e9d2;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.sticky-nav a {
+  text-decoration: none;
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1.3rem;
+  color: #5c3a21;
+  font-weight: 700;
+}
+
+.sticky-nav a:hover {
+  color: #a0522d;
+}

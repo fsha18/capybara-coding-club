@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+</html>
+<h1 class="pixelify-sans level-title">Level 3</h1>
+<nav class="sticky-nav">
+  <a href="index.html">Home</a>
+  <a href="level1.html">Level 1</a>
+  <a href="level2.html">Level 2</a>
+  <a href="level3.html">Level 3</a>
+  <a href="level4.html">Level 4</a>
+</nav>
+<div class="level-1">
+  <div class="code-section">
+    <label for="message" class="pixelify-sans">Code:</label>
+
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Type your code here..."
+      class="pixelify-sans"
+    ></textarea>
+    <button onclick="checkCode3()" class="style-button">
+      Apply Styles
+    </button>
+  </div>
+  <div class="box1">
+    <h2 class="pixelify-sans">
+      The capybara’s furniture is all pushed together and the room feels crowded! Help organise the furniture by using Flexbox to create a neat layout. Make the furniture sit in a row and spread out evenly across the room. In the code box below, write CSS rules to fix the layout. Then click Apply Styles to see your change. If it's not working, try not using spaces.
+    </h2>
+  </div>
+</div>
+<div class="room-and-hint">
+<div id="room3">
+  <h2 id="sign" class="comic-neue">CAPYBARA'S ROOM</h2>
+
+  <img
+    src="../images/ezgif-21a95621f69d742c.gif"
+    alt="Capybara"
+    class="capybara"
+  />
+
+  <div class="furniture">
+    <img
+      src="images/image-removebg-preview (1).png"
+      alt="Chair"
+      class="furniture-item"
+    />
+
+    <img
+      src="images/download.png"
+      alt="Table"
+      class="furniture-item"
+    />
+
+    <img
+      src="images/image-removebg-preview (2).png"
+      alt="Vanity"
+      class="furniture-item"
+    />
+  </div>
+</div>
+<div class="hint-box">
+  <h2 class="pixelify-sans">Hint</h2>
+  <p class="comic-neue">
+    All three pieces of furniture are inside an element with the class .furniture. Use Flexbox properties like display: flex, flex-direction, and justify-content to arrange them in a row and spread them out.
+  </p>
+</div>
+</div>
+</div>
+</div>
+<script src="../script.js"></script>
+</body>

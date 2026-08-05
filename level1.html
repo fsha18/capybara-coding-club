@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <h1 class="pixelify-sans level-title">Level 1</h1>
+    <nav class="sticky-nav">
+      <a href="index.html">Home</a>
+      <a href="level1.html">Level 1</a>
+      <a href="level2.html">Level 2</a>
+      <a href="level3.html">Level 3</a>
+      <a href="level4.html">Level 4</a>
+    </nav>
+
+    <div class="level-1">
+      <div class="code-section">
+        <label for="message" class="pixelify-sans">Code:</label>
+
+        <textarea
+          id="message"
+          name="message"
+          placeholder="Type your code here..."
+          class="pixelify-sans"
+        ></textarea>
+        <button onclick="checkCode()" class="style-button">Apply Styles</button>
+      </div>
+      <div class="box1">
+        <h2 class="pixelify-sans">
+          Oh no! The capybara's room is plain white and boring. Help make it
+          cozy by changing the background color of the room to PINK! In the code
+          box below, write a CSS rule that sets its background color to pink.
+          Then click Apply Styles to see your change. (HINT: Use
+          "background-color:"!!)
+        </h2>
+      </div>
+    </div>
+    <div class="room-and-hint">
+      <div id="room">
+        <img
+          src="../images/ezgif-21a95621f69d742c.gif"
+          alt="Capybara"
+          class="capybara"
+        />
+      </div>
+      <div class="hint-box">
+        <h2 class="pixelify-sans">Hint</h2>
+        <p class="comic-neue">
+          Try using the CSS property background-color to change its color to
+          pink.
+        </p>
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+<h1 class="pixelify-sans level-title">Level 2</h1>
+<nav class="sticky-nav">
+  <a href="index.html">Home</a>
+  <a href="level1.html">Level 1</a>
+  <a href="level2.html">Level 2</a>
+  <a href="level3.html">Level 3</a>
+  <a href="level4.html">Level 4</a>
+</nav>
+<div class="level-1">
+  <div class="code-section">
+    <label for="message" class="pixelify-sans">Code:</label>
+
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Type your code here..."
+      class="pixelify-sans"
+    ></textarea>
+    <button onclick="checkCode2()" class="style-button">Apply Styles</button>
+  </div>
+  <div class="box1">
+    <h2 class="pixelify-sans">
+      The capybara created a sign for their room, but they don't like the font. Use CSS styling to change the font of the text to comic-neue. Then click Apply Styles to see your change.
+    </h2>
+  </div>
+</div>
+<div class="room-and-hint">
+<div id="room2">
+  <h2 id="sign" >CAPYBARA'S ROOM</h2>
+
+  <img
+    src="../images/ezgif-21a95621f69d742c.gif"
+    alt="Capybara"
+    class="capybara"
+  />
+</div>
+<div class="hint-box">
+  <h2 class="pixelify-sans">Hint</h2>
+  <p class="comic-neue">
+    The sign uses an < h2 > tag. Try adding the comic-neue class to the < h2 > tag so the sign uses the Comic Neue font. If it's not working, try not using spaces.
+  </p>
+</div>
+</div>
+</div>
+<script src="../script.js"></script>
+</body>
+</html>
